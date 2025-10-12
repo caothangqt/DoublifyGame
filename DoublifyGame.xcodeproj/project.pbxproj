@@ -7,32 +7,19 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		B02C7D9A2E97B6C000E87BC7 /* DoublifyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoublifyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04C8CBE2E9809C100C7A680 /* DoublifyGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoublifyGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B02C7DAF2E97B98400E87BC7 /* Exceptions for "DoublifyGame" folder in "DoublifyGame" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = B02C7D992E97B6C000E87BC7 /* DoublifyGame */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B02C7D9C2E97B6C000E87BC7 /* DoublifyGame */ = {
+		B04C8CC02E9809C100C7A680 /* DoublifyGame */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B02C7DAF2E97B98400E87BC7 /* Exceptions for "DoublifyGame" folder in "DoublifyGame" target */,
-			);
 			path = DoublifyGame;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B02C7D972E97B6C000E87BC7 /* Frameworks */ = {
+		B04C8CBB2E9809C100C7A680 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,18 +29,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B02C7D912E97B6C000E87BC7 = {
+		B04C8CB52E9809C100C7A680 = {
 			isa = PBXGroup;
 			children = (
-				B02C7D9C2E97B6C000E87BC7 /* DoublifyGame */,
-				B02C7D9B2E97B6C000E87BC7 /* Products */,
+				B04C8CC02E9809C100C7A680 /* DoublifyGame */,
+				B04C8CBF2E9809C100C7A680 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B02C7D9B2E97B6C000E87BC7 /* Products */ = {
+		B04C8CBF2E9809C100C7A680 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B02C7D9A2E97B6C000E87BC7 /* DoublifyGame.app */,
+				B04C8CBE2E9809C100C7A680 /* DoublifyGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,64 +48,64 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B02C7D992E97B6C000E87BC7 /* DoublifyGame */ = {
+		B04C8CBD2E9809C100C7A680 /* DoublifyGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B02C7DA52E97B6C100E87BC7 /* Build configuration list for PBXNativeTarget "DoublifyGame" */;
+			buildConfigurationList = B04C8CC92E9809C200C7A680 /* Build configuration list for PBXNativeTarget "DoublifyGame" */;
 			buildPhases = (
-				B02C7D962E97B6C000E87BC7 /* Sources */,
-				B02C7D972E97B6C000E87BC7 /* Frameworks */,
-				B02C7D982E97B6C000E87BC7 /* Resources */,
+				B04C8CBA2E9809C100C7A680 /* Sources */,
+				B04C8CBB2E9809C100C7A680 /* Frameworks */,
+				B04C8CBC2E9809C100C7A680 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				B02C7D9C2E97B6C000E87BC7 /* DoublifyGame */,
+				B04C8CC02E9809C100C7A680 /* DoublifyGame */,
 			);
 			name = DoublifyGame;
 			packageProductDependencies = (
 			);
 			productName = DoublifyGame;
-			productReference = B02C7D9A2E97B6C000E87BC7 /* DoublifyGame.app */;
+			productReference = B04C8CBE2E9809C100C7A680 /* DoublifyGame.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B02C7D922E97B6C000E87BC7 /* Project object */ = {
+		B04C8CB62E9809C100C7A680 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					B02C7D992E97B6C000E87BC7 = {
+					B04C8CBD2E9809C100C7A680 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = B02C7D952E97B6C000E87BC7 /* Build configuration list for PBXProject "DoublifyGame" */;
+			buildConfigurationList = B04C8CB92E9809C100C7A680 /* Build configuration list for PBXProject "DoublifyGame" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = B02C7D912E97B6C000E87BC7;
+			mainGroup = B04C8CB52E9809C100C7A680;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = B02C7D9B2E97B6C000E87BC7 /* Products */;
+			productRefGroup = B04C8CBF2E9809C100C7A680 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B02C7D992E97B6C000E87BC7 /* DoublifyGame */,
+				B04C8CBD2E9809C100C7A680 /* DoublifyGame */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B02C7D982E97B6C000E87BC7 /* Resources */ = {
+		B04C8CBC2E9809C100C7A680 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -128,7 +115,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B02C7D962E97B6C000E87BC7 /* Sources */ = {
+		B04C8CBA2E9809C100C7A680 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,7 +125,7 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B02C7DA32E97B6C100E87BC7 /* Debug */ = {
+		B04C8CC72E9809C200C7A680 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,7 +189,7 @@
 			};
 			name = Debug;
 		};
-		B02C7DA42E97B6C100E87BC7 /* Release */ = {
+		B04C8CC82E9809C200C7A680 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,7 +246,7 @@
 			};
 			name = Release;
 		};
-		B02C7DA62E97B6C100E87BC7 /* Debug */ = {
+		B04C8CCA2E9809C200C7A680 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -269,9 +256,9 @@
 				DEVELOPMENT_TEAM = 4U92KW5437;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DoublifyGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -287,7 +274,7 @@
 			};
 			name = Debug;
 		};
-		B02C7DA72E97B6C100E87BC7 /* Release */ = {
+		B04C8CCB2E9809C200C7A680 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -297,9 +284,9 @@
 				DEVELOPMENT_TEAM = 4U92KW5437;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DoublifyGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -318,25 +305,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B02C7D952E97B6C000E87BC7 /* Build configuration list for PBXProject "DoublifyGame" */ = {
+		B04C8CB92E9809C100C7A680 /* Build configuration list for PBXProject "DoublifyGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B02C7DA32E97B6C100E87BC7 /* Debug */,
-				B02C7DA42E97B6C100E87BC7 /* Release */,
+				B04C8CC72E9809C200C7A680 /* Debug */,
+				B04C8CC82E9809C200C7A680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B02C7DA52E97B6C100E87BC7 /* Build configuration list for PBXNativeTarget "DoublifyGame" */ = {
+		B04C8CC92E9809C200C7A680 /* Build configuration list for PBXNativeTarget "DoublifyGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B02C7DA62E97B6C100E87BC7 /* Debug */,
-				B02C7DA72E97B6C100E87BC7 /* Release */,
+				B04C8CCA2E9809C200C7A680 /* Debug */,
+				B04C8CCB2E9809C200C7A680 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B02C7D922E97B6C000E87BC7 /* Project object */;
+	rootObject = B04C8CB62E9809C100C7A680 /* Project object */;
 }

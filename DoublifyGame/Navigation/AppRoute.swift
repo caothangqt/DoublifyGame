@@ -6,8 +6,8 @@
 //
 
 enum AppRoute: Hashable {
-    case splash
     case home
-    case inGame
     case setting
+    case splash
+    case inGame
 }

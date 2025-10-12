@@ -8,22 +8,21 @@
 import Foundation
 
 class HomeViewModel: ObservableObject {
-    weak var delegate: HomeNavigationDelegate?
+    private weak var navigator: NavigationProtocol?
     
-    init(delegate: HomeNavigationDelegate) {
-        self.delegate = delegate
+    init(navigator: NavigationProtocol?) {
+        self.navigator = navigator
     }
-    
     
 }
 
 //MARK: Navigation method
 extension HomeViewModel {
-    func startGameButtonDidTaped() {
-        delegate?.didRequestStartGame()
+    func navigateToSetting() {
+        navigator?.push(.setting)
     }
     
-    func settingsButtonDidTaped() {
-        delegate?.didRequestSettings()
+    func navigateToIngame() {
+        navigator?.push(.inGame)
     }
 }

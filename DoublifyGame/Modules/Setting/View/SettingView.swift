@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SettingView.swift
 //  DoublifyGame
 //
 //  Created by Tran Cao Thang on 9/10/25.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SettingView: View {
     var body: some View {
-        AppNavigator()
+        Text("Setting View")
     }
 }
 
 #Preview {
-    ContentView()
+    SettingView()
 }
