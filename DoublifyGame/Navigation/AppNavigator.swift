@@ -21,7 +21,8 @@ struct AppNavigator: View {
                 case .setting:
                     SettingView()
                 case .inGame:
-                    InGameView()
+                    InGameView(inGameViewModel: InGameViewModel(navigator: coordinator))
+                        .navigationBarBackButtonHidden(true)
                 }
             }
         }
